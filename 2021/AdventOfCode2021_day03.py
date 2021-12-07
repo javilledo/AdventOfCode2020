@@ -5,7 +5,7 @@ INPUT = [x for x in INPUT]
 
 TEST = ['00100', '11110', '10110', '10111', '10101', '01111', '00111', '11100', '10000', '11001', '00010', '01010']
 
-# DAY 1 PUZZLE 1
+# DAY 3 PUZZLE 1
 gamma_rate_array = [[0, 0] for el in INPUT[0]]
 for el in INPUT:
     for i in range(0, len(el)):
@@ -27,7 +27,7 @@ epsilon_rate = int(binary_epsilon_rate, 2)
 res1 = gamma_rate * epsilon_rate
 print('DAY 3 PUZZLE 1: %d' % (res1))
 
-# DAY 1 PUZZLE 2
+# DAY 3 PUZZLE 2
 oxigen_generator_rating = 0
 co2_scrubber_ragint = 0
 

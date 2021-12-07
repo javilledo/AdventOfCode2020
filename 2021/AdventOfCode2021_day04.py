@@ -31,7 +31,7 @@ for i in range(0, len(boards)):
         boards[i][j] = [int(x) for x in boards[i][j].split()]
 boards = np.array(boards)
 
-# DAY 1 PUZZLE 1
+# DAY 4 PUZZLE 1
 results_test = np.zeros((boards_test.shape))
 results = np.zeros((boards.shape))
     # In boards and results:
@@ -59,7 +59,7 @@ res1 = sum * el
 print('DAY 4 PUZZLE 1: %d' % (res1))
 
 
-# DAY 1 PUZZLE 2
+# DAY 4 PUZZLE 2
 results = np.zeros((boards.shape))
     # In boards and results:
     #   index 0: board

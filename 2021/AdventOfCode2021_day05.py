@@ -8,7 +8,7 @@ input = [[[int(x[0][0]), int(x[0][1])], [int(x[1][0]), int(x[1][1])]] for x in i
 
 input_test = np.array([[[0,9],[5,9]],[[8,0],[0,8]],[[9,4], [3,4]],[[2,2], [2,1]],[[7,0], [7,4]],[[6,4], [2,0]],[[0,9], [2,9]],[[3,4], [1,4]],[[0,0], [8,8]],[[5,5], [8,2]]])
 
-# DAY 1 PUZZLE 1
+# DAY 5 PUZZLE 1
 
 # Determine min and max of the board
 min_X = min([min(x[0][0], x[1][0]) for x in input])
@@ -46,7 +46,7 @@ res1 = len([el for el in board.flatten() if el > 1])
 print('DAY 5 PUZZLE 1: %d' % (res1))
 
 
-# DAY 1 PUZZLE 2
+# DAY 5 PUZZLE 2
 # Determine min and max of the board
 min_X = min([min(x[0][0], x[1][0]) for x in input])
 min_Y = min([min(x[0][1], x[1][1]) for x in input])

@@ -11,7 +11,7 @@ input_test = [3, 4, 3, 1, 2]
 INPUT = input
 
 
-# DAY 1 PUZZLE 1
+# DAY 6 PUZZLE 1
 
 TOTAL_DAYS = 80
 
@@ -29,7 +29,7 @@ res1 = len(res_array)
 print('DAY 6 PUZZLE 1: %d' % (res1))
 
 
-# DAY 1 PUZZLE 2
+# DAY 6 PUZZLE 2
 
 TOTAL_DAYS = 256
 
