@@ -12,7 +12,7 @@ input_test = np.array([list(map(int, x)) for x in (el for el in input_test)])
 
 INPUT = input
 
-# DAY 8 PUZZLE 1
+# DAY 9 PUZZLE 1
 
 res = 0
 
@@ -42,7 +42,7 @@ res1 = res
 print('DAY 9 PUZZLE 1: %d' % (res1))
 
 
-# DAY 8 PUZZLE 2
+# DAY 9 PUZZLE 2
 
 res = np.array([])
 
