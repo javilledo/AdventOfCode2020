@@ -95,7 +95,7 @@ for step in range(1, 201):
     print()
 
 res1 = flashes
-print('DAY 10 PUZZLE 1: %d' % (res1))
+print('DAY 11 PUZZLE 1: %d' % (res1))
 
 
 # DAY 11 PUZZLE 2
@@ -186,4 +186,4 @@ for step in range(1, 2000):
         res2 = step
         break
 
-print('DAY 10 PUZZLE 2: %d' % (res2))
+print('DAY 11 PUZZLE 2: %d' % (res2))
