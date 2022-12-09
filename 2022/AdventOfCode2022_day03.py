@@ -27,7 +27,7 @@ for s in INPUT:
 
 res1 = priorities
 
-print('DAY 2 PUZZLE 1: %d' % (res1))
+print('DAY 3 PUZZLE 1: %d' % (res1))
 
 # DAY 3 PUZZLE 2
 TEST_IN_GROUPS_OF_3 = [TEST[i:i+3] for i in range(0, len(TEST), 3)]
