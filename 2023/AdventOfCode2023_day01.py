@@ -1,4 +1,4 @@
-    # READ DATA
+# READ DATA
 INPUT = open('01.txt', 'r')
 INPUT = [x.strip() for x in INPUT.readlines()]
 INPUT = [x for x in INPUT]
